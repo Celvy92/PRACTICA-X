@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom right, #ffffff, #0073e6);
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    text-align: center;
+    padding: 20px;
+    color: #ffffff;
+    background-color: #005bb5;
+    margin: 0;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+.card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    max-width: 600px;
+    margin: 10px 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card h2 {
+    font-size: 1.5em;
+    color: #005bb5;
+    font-weight: bold;
+    margin: 0;
+}
+.card img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+.description {
+    font-size: 1em;
+    text-align: center;
+    margin: 10px 0;
+}
+.button-container {
+    margin-top: 10px;
+}
+.buy-button {
+    background-color: #005bb5;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1em;
+}
+.buy-button:hover {
+    background-color: #003d80;
+}
+</style>
+</head>
+<body>
+<h1>Horario de Viajes en Bus</h1>
+<div class="container">
+<!-- Horario de 8 AM - Ciudad 1 -->
+<div class="card">
+    <h2>Viaje de las 8:00 AM - Destino: Centro Histórico</h2>
+    <p class="description">Explora el corazón de la ciudad en el Centro Histórico, repleto de museos, tiendas y restaurantes.</p>
+    <img src="https://via.placeholder.com/400" alt="Imagen de Centro Histórico">
+    <div class="button-container">
+        <a href="#" class="buy-button">Comprar Ticket</a>
+    </div>
+</div>
+
+<!-- Horario de 9 AM - Ciudad 2 -->
+<div class="card">
+    <h2>Viaje de las 9:00 AM - Destino: Playa del Sol</h2>
+    <p class="description">Disfruta del mar y la arena en Playa del Sol, el destino perfecto para un día soleado.</p>
+    <img src="https://via.placeholder.com/400" alt="Imagen de Playa del Sol">
+    <div class="button-container">
+        <a href="#" class="buy-button">Comprar Ticket</a>
+    </div>
+</div>
+
+<!-- Horario de 10 AM - Ciudad 3 -->
+<div class="card">
+    <h2>Viaje de las 10:00 AM - Destino: Montañas Verdes</h2>
+    <p class="description">Un viaje hacia las Montañas Verdes para disfrutar de la naturaleza y el aire puro.</p>
+    <img src="https://via.placeholder.com/400" alt="Imagen de Montañas Verdes">
+    <div class="button-container">
+        <a href="#" class="buy-button">Comprar Ticket</a>
+    </div>
+</div>
+
+<!-- Horario de 11 AM - Ciudad 4 -->
+<div class="card">
+    <h2>Viaje de las 11:00 AM - Destino: Parque de las Flores</h2>
+    <p class="description">Visita el hermoso Parque de las Flores, ideal para un paseo relajante entre jardines y fuentes.</p>
+    <img src="https://via.placeholder.com/400" alt="Imagen de Parque de las Flores">
+    <div class="button-container">
+        <a href="#" class="buy-button">Comprar Ticket</a>
+    </div>
+</div>
+
+<!-- Horario de 12 PM - Ciudad 5 -->
+<div class="card">
+    <h2>Viaje de las 12:00 PM - Destino: Pueblo Antiguo</h2>
+    <p class="description">Recorre el encantador Pueblo Antiguo, donde la historia cobra vida en sus calles empedradas.</p>
+    <img src="https://via.placeholder.com/400" alt="Imagen de Pueblo Antiguo">
+    <div class="button-container">
+        <a href="#" class="buy-button">Comprar Ticket</a>
+    </div>
+</div>
+</div>
+</body>
+</html>
